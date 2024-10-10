@@ -1,4 +1,4 @@
-import BoardPage from "@/pages/BoardPage";
+import Tictactoe from "@/pages/tictactoe";
 import HomePage from "@/pages/HomePage";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/game",
-    element: <BoardPage />,
+    path: "/tictactoe",
+    element: <Tictactoe />,
   },
 ]);
